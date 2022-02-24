@@ -4,7 +4,8 @@
 ## Project Features:
 - SVG loader animation
 - Responsive Layout design
-- Fetching Data - Unsplash API
+- Fetching Data - Unsplash API 
+    - NOTE: Unsplash API Demo has request limit! This may cause inconsistencies with image loading.
 - Displaying Data with JS
     - Arrays
     - ForEach method

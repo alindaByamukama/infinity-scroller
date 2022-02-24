@@ -35,6 +35,13 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+.loader span {
+  position: fixed;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}
+
 /* Image Container */
 .image-container {
   margin: 10px 30%;
