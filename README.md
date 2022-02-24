@@ -9,7 +9,8 @@
     - Arrays
     - ForEach method
     - DOM Manipulation
-- 
+- Infinite image loading
+- Loader hidden when images loaded - JS
 
 ### Resources:
 - [Loading.io](https://loading.io/)
