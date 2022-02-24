@@ -7,9 +7,9 @@ let totalImages = 0;
 let photosArray = [];
 
 // Unsplash API
-const count = 30;
+let count = 5;
 const apiKey = 'J9rs2HZMPm9f-iwc4NRmCK1XtF0PW3r1FGFysjX3xi4';
-const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
+let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 // helper function to set attributes and DOM elelemnts
 function setAttributes(element, attributes) {
@@ -64,6 +64,9 @@ async function getPhotos(){
         const response = await fetch(apiUrl);
         photosArray = await response.json();
         displayPhotos();
+        // if(initialCount === true){
+        //     initialCount*= 30;
+        // }
     } catch (error) {
         // error catcher
     }
