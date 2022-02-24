@@ -9,7 +9,7 @@
     - Arrays
     - ForEach method
     - DOM Manipulation
--  
+- 
 
 ### Resources:
 - [Loading.io](https://loading.io/)
